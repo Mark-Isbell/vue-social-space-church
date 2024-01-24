@@ -2,6 +2,10 @@
 
 This is the front-end for vue-social-space-church, written in Vue-JS
 
+vue-social-space-church is an enclosed, conversation-oriented, social media app for a Christian church, or any other religious organization
+
+Back end api server: https://github.com/Mark-Isbell/vue-social-space-church-api
+
 # Official purpose 
 
 For any JS coder to easily customize and deploy an enclosed, conversation-oriented, social media app for a Christian church, or any other religious organization
@@ -50,12 +54,16 @@ npm run build-only
 ### Customize the services/BackEndCalls.js file to point to your back end server
 
 Customize the following line in that file to point wherever your back end is located:
-# baseURL: `http://localhost:5000/api/v1`,
-# or another production-like example: 
-# baseURL: `https://api.vue-social-space-church.org/api/v1`, 
+ 
+ baseURL: `http://localhost:5000/api/v1`
+ 
+ or another production-like example: 
+ 
+ baseURL: `https://api.vue-social-space-church.org/api/v1`
 
 
 ### Customize the file called 'LandingPage.vue' in the views folder 
-Edit the landing page to reflect your church or organization name
-The default content reflects the demonstration website name
-# views/LandingPage.vue   
+Edit the landing page (views/LandingPage.vue) to reflect your church or organization name
+
+The default file reflects the demonstration website name
+    

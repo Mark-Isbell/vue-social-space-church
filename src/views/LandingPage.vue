@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 // imports
 import router from "@/router";
 import { useErrorStore } from "@/stores/error";
@@ -32,15 +32,7 @@ const navToCreateAccount = () => {
     <div class="col-3"></div>
   </div>
 
-  <div class="row mt-3">
-    <div class="col-3"></div>
-    <div class="col-6 h4 text-muted em text-center">
-      <em>github:
-      </em>
 
-    </div>
-    <div class="col-3"></div>
-  </div>
 
   <div class="row mt-3 ">
     <div class="col-3"></div>
@@ -50,7 +42,12 @@ const navToCreateAccount = () => {
     <div class="col-3 mb-5"></div>
   </div>
 
+
   <!--
+
+
+
+
 
 
   <div class="row mt-5 ">
@@ -78,7 +75,25 @@ const navToCreateAccount = () => {
     <div class="col-3 mb-5"></div>
   </div>
 
+  <div class="row mt-3">
+    <div class="col-3"></div>
+    <div class="col-6 text-center">
+      front end github:
+      <a target="_blank"
+        href="https://github.com/Mark-Isbell/vue-social-space-church">github.com/Mark-Isbell/vue-social-space-church</a>
+    </div>
+    <div class="col-3"></div>
+  </div>
 
+  <div class="row mt-3">
+    <div class="col-3"></div>
+    <div class="col-6 text-center">
+      back end github:
+      <a target="_blank"
+        href="https://github.com/Mark-Isbell/vue-social-space-church-api">github.com/Mark-Isbell/vue-social-space-church-api</a>
+    </div>
+    <div class="col-3"></div>
+  </div>
   -->
 </template>
 
