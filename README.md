@@ -4,7 +4,7 @@ This is the front-end for vue-social-space-church, written in Vue-JS
 
 vue-social-space-church is an enclosed, conversation-oriented, social media app for a Christian church, or any other religious organization
 
-Demonstration Implementation:  https://vue-social-space-church.org 
+Demonstration Implementation:  [https://vue-social-space-church](https://vue-social-space-church.org/) 
 
 Back end api server: https://github.com/Mark-Isbell/vue-social-space-church-api
 
